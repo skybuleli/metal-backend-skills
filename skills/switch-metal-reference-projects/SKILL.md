@@ -1,3 +1,8 @@
+---
+name: switch-metal-reference-projects
+description: Metal 后端外部参考项目百科 — MoltenVK、Ryujinx 等 Metal 实现参考
+---
+
 # Metal 后端外部参考项目百科
 
 > 最后更新：2026-06-13
