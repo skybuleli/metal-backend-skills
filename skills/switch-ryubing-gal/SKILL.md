@@ -1,3 +1,8 @@
+---
+name: switch-ryubing-gal
+description: Ryubing GAL 接口参考 — 图形抽象层接口签名与调用约定
+---
+
 # Ryubing GAL 接口速查
 
 > Ryubing 图形抽象层（Graphics Abstraction Layer）接口参考。Phase 3 实现 MetalRenderer/MetalPipeline 时直接引用。
