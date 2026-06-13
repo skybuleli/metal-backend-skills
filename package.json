@@ -1,0 +1,31 @@
+{
+      "name": "@skybuleli/metal-backend-skills",
+      "version": "1.0.0",
+      "description": "Switch Metal backend development skills for Claude Code, Codex, OpenCode, Pi, and compatible coding agents.",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skybuleli/metal-backend-skills.git"
+      },
+      "keywords": [
+        "agent-skills",
+        "metal",
+        "switch",
+        "ryubing",
+        "claude-code",
+        "codex",
+        "opencode",
+        "pi-package"
+      ],
+      "files": [
+        "README.md",
+        "AGENTS.md",
+        "skills"
+      ],
+      "pi": {
+        "skills": [
+          "./skills"
+        ]
+      }
+    }
+    
