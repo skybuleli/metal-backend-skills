@@ -1,3 +1,8 @@
+---
+name: switch-metal-debug
+description: GPU 运行时调试 — 崩溃分析、渲染花屏、性能问题、GPU hang 排查
+---
+
 # Switch Metal GPU 调试
 
 > 确认根因后再修。一个补丁拍在症状上，会在别处制造一个新 bug。
