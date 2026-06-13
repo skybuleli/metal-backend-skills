@@ -1,3 +1,8 @@
+---
+name: metal4-api
+description: Metal 4 新特性参考 — Metal Shader Converter 4.0、MetalFX 等 WWDC25 技术
+---
+
 # Metal 4 API 全览
 
 > WWDC25 发布的 Metal 4 完整技术知识。用于 Switch 模拟器 Metal 后端开发时参考，也可用于任何 Metal 4 API 使用场景。
