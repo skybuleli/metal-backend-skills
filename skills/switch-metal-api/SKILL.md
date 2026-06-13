@@ -1,3 +1,8 @@
+---
+name: switch-metal-api
+description: metal-cpp 核心 API 使用模式 — MTLDevice、MTLCommandQueue、MTLBuffer、MTLTexture
+---
+
 # Metal API 速查
 
 > metal-cpp 核心 API 模式速查。Phase 4 实现 libmetal_bridge 时直接引用。
