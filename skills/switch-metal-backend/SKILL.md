@@ -1,3 +1,8 @@
+---
+name: switch-metal-backend
+description: 项目全景与模式选择器 — 技术路线、工作约定、五大工作模式
+---
+
 # Switch Metal 后端项目全景
 
 > 最后更新：2026-06-13
