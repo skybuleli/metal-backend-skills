@@ -9,9 +9,40 @@
 npx skills add skybuleli/metal-backend-skills -a claude-code -g -y
 ```
 
-### Codex
+### Codex CLI
 ```bash
 npx skills add skybuleli/metal-backend-skills -a codex -g -y
+```
+
+### Codex 桌面版
+
+> CLI 与桌面版的技能存储独立，CLI 安装的技能不会自动同步到桌面版。
+
+```bash
+# 克隆仓库
+git clone https://github.com/skybuleli/metal-backend-skills.git ~/MetalBackend/metal-backend-skills/
+```
+
+配置方式任选其一：
+
+**方式一：全局 AGENTS.md（推荐）**
+将 AGENTS.md 合并到 Codex 桌面版全局指令文件，每次启动自动加载：
+```bash
+cat ~/MetalBackend/metal-backend-skills/AGENTS.md >> ~/.codex/AGENTS.md
+```
+
+**方式二：项目级引用**
+在项目根目录放置 AGENTS.md：
+```bash
+cd /your/project
+cp ~/MetalBackend/metal-backend-skills/AGENTS.md ./
+```
+
+**方式三：全局技能目录**
+将技能文件夹复制到 Codex 桌面版全局技能目录：
+```bash
+mkdir -p ~/.codex/skills/
+cp -r ~/MetalBackend/metal-backend-skills/skills/* ~/.codex/skills/
 ```
 
 ### OpenCode
