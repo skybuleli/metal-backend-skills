@@ -1,3 +1,8 @@
+---
+name: switch-shader-debug
+description: 着色器编译错误排查 — SPIR-V、Slang、DXIL、MSC 编译失败诊断
+---
+
 # Switch Metal 着色器调试
 
 > SPIR-V / Slang / DXIL / MSC 着色器编译调试。当编译错误排查时引用。
