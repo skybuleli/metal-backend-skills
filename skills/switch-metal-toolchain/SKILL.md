@@ -1,3 +1,8 @@
+---
+name: switch-metal-toolchain
+description: 工具链路径与编译命令 — slangc、metal-shaderconverter、spirv-cross、dxc
+---
+
 # Switch Metal 工具链速查
 
 > Phase 0（开发环境与工具链搭建）验证通过的全部工具知识。当 Agent 需要编译着色器、验证 SPIR-V、构建 Ryubing 时，直接引用此 Skill，无需重新验证。
